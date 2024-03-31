@@ -51,8 +51,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Mário Esteves"
+  description: Where I show off my build and stats for this game called life!
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -74,7 +74,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark"
 
   font:
     fontSize: 1rem # default: 1rem
@@ -104,7 +104,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    # brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -206,42 +206,26 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Computer Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Faculdade de Engenharia da Universidade of Porto"
+          url: "https://sigarra.up.pt/feup/pt/web_page.inicial"
+        date: "2016 - Present (Paused)"
+        GPA: "16 out of 20"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
+            - Participated in the student computer graphics nucleus, where I developed games for diverse projects, mainly serious games
+      - title: "Bachelor of Computer Engineering"
         school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
+          name: "Universidade Lusófona do Porto"
+          url: "https://www.ulusofona.pt/"
         date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
+        GPA: "16 out of 20"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          My final project to complete the course was a multiplayer game inspired by Super Smash Bros.! I learned a lot about unity and multiplayer, but I was still young!
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+            - It was around this time I started participating more in game jams, something I still do to thks day semi-regularly.
 
   # Achievements
   achievements:
